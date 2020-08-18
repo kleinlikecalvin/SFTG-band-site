@@ -1,3 +1,6 @@
-.media img {
-  height: 100px !important;
+.carousel-item {
+  height: 200px;
+}
+.carousel-item img {
+  height: 200px;
 }
