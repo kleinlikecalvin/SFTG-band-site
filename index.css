@@ -3,6 +3,8 @@ header {
   background: black;
 }
 header img {
+  margin: 0 auto;
+  padding: 0;
   height: 100vh;
 }
 .navbar {
@@ -33,13 +35,16 @@ form h1 {
 form input {
   padding: 7px;
   margin: 2%;
-  width: 250px;
+  font-size: 20px;
+  width: 350px;
   background: black;
   color: rgb(0, 255, 34);
   border: 2px solid black;
   border-radius: 4px;
 }
 form button {
+  font-family: "Creepster", cursive;
+  font-size: 20px;
   padding: 5px;
   margin: 2%;
   background: rgb(0, 255, 34);
@@ -57,17 +62,27 @@ form button:hover {
   border-radius: 4px;
   box-shadow: 4px 5px 5px 2px #212121;
 }
-#update header {
-  background: transparent;
-  border-bottom: 2px solid black;
-  margin-bottom: 2%;
-}
+
 #update {
   background: rgb(117, 0, 117);
   margin: 2%;
   padding: 2%;
   color: black;
   border-radius: 8px;
+  opacity: 50%;
+}
+#update header {
+  background: transparent;
+  border-bottom: 2px solid black;
+  margin-bottom: 2%;
+}
+#update:hover {
+  background: rgb(117, 0, 117);
+  margin: 2%;
+  padding: 2%;
+  color: black;
+  border-radius: 8px;
+  opacity: 100%;
 }
 #shows {
   color: rgb(0, 255, 34);
