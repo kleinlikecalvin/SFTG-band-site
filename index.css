@@ -9,6 +9,38 @@ header {
 body {
   background: black;
 }
+.container {
+  font-family: "Arvo", serif;
+}
+form {
+  text-align: center;
+}
+form h1 {
+  font-family: "Creepster", cursive;
+}
+form input {
+  padding: 4px;
+  margin: 2%;
+  width: 30%;
+}
+form button {
+  padding: 5px;
+  margin: 2%;
+  background: rgb(0, 255, 34);
+  color: black;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-shadow: 4px 5px 5px 2px grey;
+}
+form button:hover {
+  padding: 5px;
+  margin: 2%;
+  background: black;
+  color: rgb(0, 255, 34);
+  border: 2px solid rgb(0, 255, 34);
+  border-radius: 4px;
+  box-shadow: 4px 5px 5px 2px grey;
+}
 .col {
   background: white;
   margin: 2%;
