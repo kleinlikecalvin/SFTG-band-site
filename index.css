@@ -2,6 +2,9 @@ header {
   text-align: center;
   background: black;
 }
+header img {
+  height: 100vh;
+}
 .navbar {
   font-family: "Arvo", serif;
   background: black !important;
@@ -21,15 +24,20 @@ form {
   padding: 2%;
   border: 3px solid black;
   border-radius: 8px;
-  box-shadow: 0px 0px 40px 10px rgb(0, 255, 34);
+  box-shadow: 0px 0px 30px 10px rgb(0, 255, 34);
 }
 form h1 {
   font-family: "Creepster", cursive;
+  color: black;
 }
 form input {
-  padding: 4px;
+  padding: 7px;
   margin: 2%;
   width: 250px;
+  background: black;
+  color: rgb(0, 255, 34);
+  border: 2px solid black;
+  border-radius: 4px;
 }
 form button {
   padding: 5px;
@@ -38,7 +46,7 @@ form button {
   color: black;
   border: 2px solid black;
   border-radius: 4px;
-  box-shadow: 4px 5px 5px 2px grey;
+  box-shadow: 4px 5px 5px 2px #212121;
 }
 form button:hover {
   padding: 5px;
@@ -47,12 +55,13 @@ form button:hover {
   color: rgb(0, 255, 34);
   border: 2px solid rgb(0, 255, 34);
   border-radius: 4px;
-  box-shadow: 4px 5px 5px 2px grey;
+  box-shadow: 4px 5px 5px 2px #212121;
 }
 #update {
-  background: white;
+  background: rgb(117, 0, 117);
   margin: 2%;
   padding: 2%;
+  color: black;
   border: 3px solid black;
   border-radius: 8px;
   box-shadow: 0px 0px 40px 10px rgb(0, 255, 34);
