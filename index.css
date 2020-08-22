@@ -1,3 +1,7 @@
+header {
+  text-align: center;
+  background: black;
+}
 .navbar {
   font-family: "Arvo", serif;
   background: black !important;
