@@ -10,10 +10,9 @@ body {
   font-family: "Creepster", cursive;
   font-size: 40px;
 }
-.container h1 {
+.container h2 {
   font-family: "Creepster", cursive;
-  color: white;
-  text-align: center;
+  color: rgb(0, 255, 34);
 }
 #about-content {
   background: white;
