@@ -11,11 +11,11 @@ body {
   font-size: 40px;
 }
 .container {
-  text-align: center;
 }
 .container h1 {
   font-family: "Creepster", cursive;
   color: white;
+  text-align: center;
 }
 #about-content {
   background: white;
