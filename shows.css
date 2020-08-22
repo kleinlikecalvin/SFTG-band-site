@@ -9,6 +9,9 @@
 .container h2 {
   font-family: "Creepster", cursive;
 }
+#shows {
+  margin: 2%;
+}
 #flyers {
   height: 300px;
   width: 200px;
