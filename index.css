@@ -57,6 +57,11 @@ form button:hover {
   border-radius: 4px;
   box-shadow: 4px 5px 5px 2px #212121;
 }
+#update header {
+  background: transparent;
+  border-bottom: 2px solid black;
+  margin-bottom: 2%;
+}
 #update {
   background: rgb(117, 0, 117);
   margin: 2%;
@@ -64,8 +69,10 @@ form button:hover {
   color: black;
   border-radius: 8px;
 }
-#update header {
-  background: transparent;
-  border-bottom: 2px solid black;
-  margin-bottom: 2%;
+#shows {
+  color: rgb(0, 255, 34);
+}
+#shows:hover {
+  text-decoration: none;
+  color: white;
 }

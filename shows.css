@@ -6,7 +6,15 @@
   font-family: "Creepster", cursive;
   font-size: 40px;
 }
-.container h1 {
+.container h2 {
   font-family: "Creepster", cursive;
-  text-align: center;
+}
+#flyers {
+  height: 300px;
+  width: 200px;
+}
+#flyers:hover {
+  -webkit-transform: scale(1.5); /* or some other value */
+  transform: scale(1.5);
+  z-index: 1;
 }
