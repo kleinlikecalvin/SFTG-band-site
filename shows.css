@@ -1,0 +1,12 @@
+.navbar {
+  font-family: "Arvo", serif;
+  background: black !important;
+}
+#sftg-nav-title {
+  font-family: "Creepster", cursive;
+  font-size: 40px;
+}
+.container h1 {
+  font-family: "Creepster", cursive;
+  text-align: center;
+}
