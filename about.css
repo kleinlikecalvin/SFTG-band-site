@@ -1,3 +1,7 @@
+body {
+  background: black;
+  font-family: "Arvo", serif;
+}
 .navbar {
   font-family: "Arvo", serif;
   background: black !important;
@@ -5,4 +9,19 @@
 #sftg-nav-title {
   font-family: "Creepster", cursive;
   font-size: 40px;
+}
+.container {
+  text-align: center;
+}
+.container h1 {
+  font-family: "Creepster", cursive;
+  color: white;
+}
+#about-content {
+  background: white;
+  margin: 2%;
+  padding: 2%;
+  border: 3px solid black;
+  border-radius: 8px;
+  box-shadow: 0px 0px 40px 10px rgb(0, 255, 34);
 }
