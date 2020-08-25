@@ -7,3 +7,56 @@
   font-size: 40px;
   text-shadow: 2px 2px #9900ff;
 }
+#contact-container {
+  margin-top: 100px;
+  background: black;
+  border-radius: 8px;
+  font-family: "Arvo", serif;
+  max-width: 500px;
+}
+.container h1 {
+  font-family: "Creepster", cursive;
+  color: rgb(0, 255, 34);
+}
+.container h6 {
+  color: #9900ff;
+}
+.form-group label {
+  color: #fff;
+}
+.form-group input {
+  display: flex;
+  color: #9900ff;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid grey;
+  padding: 7px;
+  width: 100%;
+}
+.form-group textarea {
+  color: #9900ff;
+  display: flex;
+  background: transparent;
+  border: 2px solid grey;
+  padding: 7px;
+  width: 100%;
+  margin-top: 2%;
+}
+
+#button-container {
+  text-align: center;
+}
+.form-group button {
+  padding: 4px;
+  border: 2px solid rgb(0, 255, 34);
+  border-radius: 4px;
+  color: black;
+  background: rgb(0, 255, 34);
+}
+.form-group button:hover {
+  padding: 4px;
+  border: 2px solid #9900ff;
+  border-radius: 4px;
+  color: #000000;
+  background: #9900ff;
+}

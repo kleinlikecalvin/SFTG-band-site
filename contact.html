@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Creepster&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="./contact.css" />
     <title>SFTG FTW</title>
   </head>
 
@@ -46,7 +46,7 @@
         </div>
       </div>
     </nav>
-    <div class="container">
+    <div class="container" id="contact-container">
       <h1>Contact Us</h1>
       <h6>Booking - Merch - Inquiries</h6>
       <div class="row">
@@ -73,11 +73,15 @@
 
             <div class="form-group">
               <label for="text">Message</label>
-              <textarea name="text" id="text" cols="30" rows="10">
-Whisper sweet nothings into our inbox...</textarea
-              >
+              <textarea
+                name="text"
+                id="text"
+                cols="30"
+                rows="10"
+                placeholder="Whisper sweet nothings into our inbox..."
+              ></textarea>
             </div>
-            <div class="form-group">
+            <div class="form-group" id="button-container">
               <button type="submit">Submit</button>
             </div>
           </form>
