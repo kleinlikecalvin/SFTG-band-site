@@ -7,12 +7,20 @@
   font-size: 40px;
   text-shadow: 2px 2px #9900ff;
 }
+#top-half {
+  margin-top: ;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 0;
+  justify-content: center;
+}
 #contact-container {
-  margin-top: 100px;
   background: black;
   border-radius: 8px;
   font-family: "Arvo", serif;
   max-width: 500px;
+  box-shadow: 0px 0px 20px 5px rgb(0, 255, 34);
 }
 .container h1 {
   font-family: "Creepster", cursive;
@@ -59,4 +67,10 @@
   border-radius: 4px;
   color: #000000;
   background: #9900ff;
+}
+#bottom-half {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
 }
