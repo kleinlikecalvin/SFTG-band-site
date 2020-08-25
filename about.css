@@ -22,3 +22,18 @@ body {
   border: 3px solid rgb(0, 255, 34);
   border-radius: 8px;
 }
+#page-footer {
+  margin: 15%;
+  text-align: center;
+  font-family: "arvo", monospace;
+  color: grey;
+}
+#page-footer a {
+  color: grey;
+}
+#page-footer a:hover {
+  text-align: center;
+  font-family: "arvo", monospace;
+  color: rgb(0, 255, 34);
+  text-decoration: none;
+}

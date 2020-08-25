@@ -13,3 +13,17 @@
 .carousel-item img {
   height: 200px;
 }
+#page-footer {
+  margin: 15%;
+  text-align: center;
+  font-family: "arvo", monospace;
+}
+#page-footer a {
+  color: black;
+}
+#page-footer a:hover {
+  text-align: center;
+  font-family: "arvo", monospace;
+  color: #9900ff;
+  text-decoration: none;
+}

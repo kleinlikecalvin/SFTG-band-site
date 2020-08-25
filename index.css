@@ -85,11 +85,27 @@ form button:hover {
   color: black;
   border-radius: 8px;
   opacity: 100%;
+  transition: 0.6s;
 }
-#shows {
+#shows-link {
   color: rgb(0, 255, 34);
 }
-#shows:hover {
+#shows-link:hover {
   text-decoration: none;
   color: #fefefe;
+}
+#page-footer {
+  margin: 15%;
+  text-align: center;
+  font-family: "arvo", monospace;
+  color: grey;
+}
+#page-footer a {
+  color: grey;
+}
+#page-footer a:hover {
+  text-align: center;
+  font-family: "arvo", monospace;
+  color: rgb(0, 255, 34);
+  text-decoration: none;
 }
