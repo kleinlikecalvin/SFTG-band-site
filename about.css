@@ -22,6 +22,38 @@ body {
   border: 3px solid rgb(0, 255, 34);
   border-radius: 8px;
 }
+#faba-tony {
+  width: 10vw;
+  shape-margin: 0.8em;
+  shape-image-threshold: 0.5;
+  float: left;
+  margin: 1em;
+  box-sizing: border-box;
+  filter: grayscale(90);
+}
+#skull-flyer {
+  width: 10vw;
+  shape-margin: 0.8em;
+  shape-image-threshold: 0.5;
+  float: right;
+  margin: 1em;
+  box-sizing: border-box;
+  filter: grayscale(90);
+}
+#nikki-lineup {
+  width: 10vw;
+  shape-margin: 0.8em;
+  shape-image-threshold: 0.5;
+  float: left;
+  margin: 1em;
+  box-sizing: border-box;
+  filter: grayscale(90);
+}
+#andy-lineup {
+  float: right;
+  box-sizing: border-box;
+  filter: grayscale(90);
+}
 #page-footer {
   margin: 15%;
   text-align: center;
