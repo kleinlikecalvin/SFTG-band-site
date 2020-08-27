@@ -1,11 +1,12 @@
 .navbar {
   font-family: "Arvo", serif;
-  background: black !important;
+  background: #fff !important;
 }
 #sftg-nav-title {
   font-family: "Creepster", cursive;
   font-size: 40px;
-  text-shadow: 2px 2px #9900ff;
+  color: #000000;
+  text-shadow: 2px 2px rgb(0, 255, 34);
 }
 #top-half {
   display: flex;
