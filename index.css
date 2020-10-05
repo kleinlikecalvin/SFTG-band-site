@@ -18,6 +18,9 @@ body {
 .container {
   font-family: "Arvo", serif;
 }
+#email-sign-up {
+  margin: 6em;
+}
 form {
   text-align: center;
   background: #fefefe;
@@ -35,7 +38,7 @@ form h1 {
   color: black;
 }
 form input {
-  padding: 7px;
+  padding: 0.5em;
   margin: 2%;
   font-size: 20px;
   width: 350px;
@@ -46,23 +49,25 @@ form input {
 }
 form button {
   font-family: "Creepster", cursive;
-  font-size: 20px;
-  padding: 5px;
+  font-size: 1em;
+  padding: 0.4em;
   margin: 2%;
   background: rgb(0, 255, 34);
   color: black;
   border: 2px solid black;
   border-radius: 4px;
   box-shadow: 4px 5px 5px 2px #212121;
+  transition: 0.5s;
 }
 form button:hover {
-  padding: 5px;
+  padding: 0.4em;
   margin: 2%;
   background: black;
   color: rgb(0, 255, 34);
   border: 2px solid rgb(0, 255, 34);
   border-radius: 4px;
   box-shadow: 4px 5px 5px 2px #212121;
+  transition: 0.5s;
 }
 
 #update {
