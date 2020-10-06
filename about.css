@@ -54,18 +54,3 @@ body {
   box-sizing: border-box;
   filter: grayscale(90);
 }
-#page-footer {
-  margin: 15%;
-  text-align: center;
-  font-family: "arvo", monospace;
-  color: grey;
-}
-#page-footer a {
-  color: grey;
-}
-#page-footer a:hover {
-  text-align: center;
-  font-family: "arvo", monospace;
-  color: rgb(0, 255, 34);
-  text-decoration: none;
-}
