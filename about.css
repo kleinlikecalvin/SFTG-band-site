@@ -9,18 +9,16 @@ body {
 #sftg-nav-title {
   font-family: "Creepster", cursive;
   font-size: 40px;
-  text-shadow: 2px 2px #9900ff;
+  text-shadow: 2px 2px rgb(142, 90, 177);
 }
 .container h2 {
   font-family: "Creepster", cursive;
-  color: rgb(0, 255, 34);
+  color: rgb(126, 255, 143);
 }
 #about-content {
-  background: white;
   margin: 2%;
   padding: 2%;
-  border: 3px solid rgb(0, 255, 34);
-  border-radius: 8px;
+  color: rgb(142, 90, 177);
 }
 #faba-tony {
   width: 10vw;
