@@ -13,7 +13,7 @@ body {
 }
 .container h2 {
   font-family: "Creepster", cursive;
-  color: rgb(126, 255, 143);
+  color: rgb(142, 90, 177);
 }
 #about-content {
   margin: 2%;
@@ -21,34 +21,26 @@ body {
   color: rgb(142, 90, 177);
 }
 #faba-tony {
-  width: 10vw;
-  shape-margin: 0.8em;
-  shape-image-threshold: 0.5;
-  float: left;
+  width: 10em;
   margin: 1em;
-  box-sizing: border-box;
+  float: left;
   filter: grayscale(90);
 }
 #skull-flyer {
-  width: 10vw;
-  shape-margin: 0.8em;
-  shape-image-threshold: 0.5;
+  width: 10em;
   float: right;
   margin: 1em;
-  box-sizing: border-box;
   filter: grayscale(90);
 }
 #nikki-lineup {
-  width: 10vw;
-  shape-margin: 0.8em;
-  shape-image-threshold: 0.5;
+  width: 15em;
   float: left;
   margin: 1em;
-  box-sizing: border-box;
   filter: grayscale(90);
 }
 #andy-lineup {
+  width: 15em;
   float: right;
-  box-sizing: border-box;
+  margin: 1em;
   filter: grayscale(90);
 }
