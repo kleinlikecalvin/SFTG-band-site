@@ -1,0 +1,101 @@
+header {
+  text-align: center;
+  background: black;
+}
+header img {
+  margin: 0 auto;
+  padding: 0;
+  height: 100vh;
+}
+.navbar {
+  font-family: "Arvo", serif;
+  background: black !important;
+}
+body {
+  background: black;
+  margin-top: 2%;
+}
+.container {
+  font-family: "Arvo", serif;
+}
+#email-sign-up {
+  margin: 6em;
+}
+form {
+  text-align: center;
+  background: #fefefe;
+  background-image: url("https://lh3.googleusercontent.com/proxy/XxK1b2wJafka3CJZsTeCgvGyOmAS1U4gb7YKmVOSxWqqnrtlmPwCp2OzO-BMJoUid-3HLsSfzMZ_qmASQcYU8L_2vjEljfCJESvNj_L8VHCyNw");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin: 2%;
+  padding: 2%;
+  border: 3px solid black;
+  border-radius: 8px;
+  box-shadow: 0px 0px 30px 10px rgb(0, 255, 34);
+}
+form h1 {
+  font-family: "Creepster", cursive;
+  color: black;
+}
+form input {
+  padding: 0.5em;
+  margin: 2%;
+  font-size: 20px;
+  width: 350px;
+  background: black;
+  color: rgb(0, 255, 34);
+  border: 2px solid black;
+  border-radius: 4px;
+}
+form button {
+  font-family: "Creepster", cursive;
+  font-size: 1em;
+  padding: 0.4em;
+  margin: 2%;
+  background: rgb(0, 255, 34);
+  color: black;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-shadow: 4px 5px 5px 2px #212121;
+  transition: 0.5s;
+}
+form button:hover {
+  padding: 0.4em;
+  margin: 2%;
+  background: black;
+  color: rgb(0, 255, 34);
+  border: 2px solid rgb(0, 255, 34);
+  border-radius: 4px;
+  box-shadow: 4px 5px 5px 2px #212121;
+  transition: 0.5s;
+}
+
+#update {
+  background: #9900ff;
+  margin: 2%;
+  padding: 2%;
+  color: black;
+  border-radius: 8px;
+  opacity: 50%;
+}
+#update header {
+  background: transparent;
+  border-bottom: 2px solid black;
+  margin-bottom: 2%;
+}
+#update:hover {
+  background: #9900ff;
+  margin: 2%;
+  padding: 2%;
+  color: black;
+  border-radius: 8px;
+  opacity: 100%;
+  transition: 0.6s;
+}
+#shows-link {
+  color: rgb(0, 255, 34);
+}
+#shows-link:hover {
+  text-decoration: none;
+  color: #fefefe;
+}

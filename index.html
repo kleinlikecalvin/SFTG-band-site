@@ -3,7 +3,156 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Creepster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
     <title>SFTG FTW</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img src="./Images/logo.JPG" alt="Straight From The Grave Logo 2019" />
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#"
+              >News <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="html/about.html">About</a>
+            <a class="nav-item nav-link" href="html/shows.html">Shows</a>
+            <a class="nav-item nav-link" href="html/shop.html">Shop</a>
+            <a class="nav-item nav-link" href="html/media.html">Media</a>
+            <a class="nav-item nav-link" href="html/contact.html">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <!--<div class="row justify-content-center">
+        <div class="col" id="email-sign-up">
+          <form action="sign-up">
+            <h1>Want delightfully horrifying updates?</h1>
+            <input type="text" placeholder="Sign up for emails here" />
+
+            <button type="submit">Hells Yah!</button>
+          </form>
+        </div>
+      </div>-->
+      <div class="row justify-content-center">
+        <div class="col-3" id="update">
+          <header>
+            <h3>Stay tuned for more updates...</h3>
+          </header>
+          <img
+            src="https://i.ibb.co/DbwVJhD/IMG-E698-C7-E7-FA1-F-1.jpg"
+            alt="Meme of Christian Bales character in the movie American Psycho, Patrick Bateman. First picture, smiling, reads: when she goes to a psycho show with you. Second photo making a kissy face reads: when she asks you to hold her beer so she can wreck"
+          class="img-fluid"
+            />
+        </div>
+        <div class="col-6" id="update">
+          <header>
+            <h3>We Have Two Upcoming Shows</h3>
+          </header>
+          <p>
+            This August 30th and September 5th we will be performing at the
+            world famous Doll Hut in Anaheim, CA! Oof, it's going to feel so
+            good to stretch our bones again after hibernating in our graves for
+            most of this 2020 year. See you soon ghoulies! 🧟‍♂️
+            <br />
+            <a href="html/shows.html" id="shows-link">
+              For more details check out our shows page</a
+            >
+          </p>
+          <footer>
+            <h6>- With fear and hisses, SFTG</h6>
+            <span id="datetime"> 8/22/20 @1:18PST</span>
+          </footer>
+        </div>
+        <div class="col-6" id="update">
+          <header><h3>We Fuggin Went On The Radio!</h3></header>
+          <p>
+            We got to spread the virus... ahem... spread the word on what we
+            have coming up as a band like: our two thrilling shows at Anaheims
+            Famous Doll Hut coming in the end of August 2020 AND Papa Rhino
+            Michelada Mix made by none other than Straight From The Graves
+            favorite daddy, The Papa Rhino himself, Fabian Grave and his
+            beautifully sinister wife.
+          </p>
+          <footer>
+            <h6>- With fear and hisses, SFTG</h6>
+            <span id="datetime"> 8/22/20 @12:05PST</span>
+          </footer>
+        </div>
+        <div class="col-4" id="update">
+          <header>
+            <h3>Buy Your Papa Rhino Michelada Mix Now!</h3>
+          </header>
+          <p>
+            Our very own Fabian Grave has FINALLY followed his heart (aka his
+            belly) to a new business venture! Papa Rhino Michelada Mix is
+            currently available for purchase via venmo. Coming soon to stores
+            and street vendors near you!
+          </p>
+          <footer>
+            <h6>- With fear and hisses, SFTG</h6>
+            <span id="datetime"> 8/22/20 @12:05PST</span>
+          </footer>
+        </div>
+
+        <div class="col-4" id="update">
+          <header>
+            <h3>Corona Amirite?</h3>
+          </header>
+          <p>words words words words</p>
+          <footer>
+            <h6>- With fear and hisses, SFTG</h6>
+            <span id="datetime"> 8/22/20 @12:05PST</span>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <!-- <footer id="page-footer">
+      Open source code by
+      <a href="https://github.com/streetlightkids/SFTG-band-site"
+        >Nikki Klein</a
+      >
+    </footer> -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

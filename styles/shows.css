@@ -1,0 +1,28 @@
+.navbar {
+  font-family: "Arvo", serif;
+  background: black !important;
+}
+#sftg-nav-title {
+  font-family: "Creepster", cursive;
+  font-size: 40px;
+  text-shadow: 2px 2px #9900ff;
+}
+.container h2 {
+  font-family: "Creepster", cursive;
+  margin-top: 1em;
+}
+#shows {
+  margin: 2%;
+}
+.flyers {
+  height: 300px;
+  width: 200px;
+  margin: 3em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.flyers:hover {
+  opacity: 0.7;
+}
