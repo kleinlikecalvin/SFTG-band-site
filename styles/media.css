@@ -2,6 +2,9 @@
   font-family: "Arvo", serif;
   background: black !important;
 }
+body {
+  background: black;
+}
 #sftg-nav-title {
   font-family: "Creepster", cursive;
   font-size: 40px;
@@ -10,4 +13,5 @@
 h1 {
   font-family: "Creepster", cursive;
   margin-top: 1em;
+  color: #9900ff;
 }
