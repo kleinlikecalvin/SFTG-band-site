@@ -20,27 +20,33 @@ body {
   padding: 2%;
   color: rgb(142, 90, 177);
 }
-#faba-tony {
-  width: 10em;
-  margin: 1em;
-  float: left;
-  filter: grayscale(90);
-}
-#skull-flyer {
-  width: 10em;
-  float: right;
-  margin: 1em;
-  filter: grayscale(90);
-}
-#nikki-lineup {
-  width: 15em;
-  float: left;
-  margin: 1em;
-  filter: grayscale(90);
-}
-#andy-lineup {
+.float-right {
   width: 15em;
   float: right;
   margin: 1em;
   filter: grayscale(90);
+}
+.float-left {
+  width: 15em;
+  margin: 1em;
+  float: left;
+  filter: grayscale(90);
+  align-self: top;
+}
+
+footer {
+  background: rgb(142, 90, 177);
+  color: black;
+  padding: 1em;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  border-radius: 2px;
+  text-align: center;
+}
+a {
+  color: #fff;
+  text-decoration: dashed;
+}
+a:hover {
+  color: rgb(0, 255, 34);
 }

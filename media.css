@@ -7,9 +7,7 @@
   font-size: 40px;
   text-shadow: 2px 2px #9900ff;
 }
-.carousel-item {
-  height: 200px;
-}
-.carousel-item img {
-  height: 200px;
+h1 {
+  font-family: "Creepster", cursive;
+  margin-top: 1em;
 }

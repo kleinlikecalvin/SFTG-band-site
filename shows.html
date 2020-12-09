@@ -14,6 +14,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="shows.css" />
+  <link href="/lightbox.css" rel="stylesheet" />
     <title>SFTG FTW</title>
   </head>
 
@@ -49,30 +50,21 @@
     <div class="container">
       <h2>Upcoming Shows</h2>
       <div class="row" id="shows">
-        <div class="col">
-          <img
-            src="https://i.ibb.co/Np58z49/IMG-6761.jpg"
-            alt="August 30, 2020 at Anaheim Doll Hut"
-            id="flyers"
-          />
-          <div id="myModal" class="modal">
-            <!-- The Close Button -->
-            <span class="close">&times;</span>
+          <a 
+                 href="Images/IMG_6761.jpg"
+                 data-lightbox="upcoming"
+            data-title="August 30, 2020 at Anaheim Doll Hut"
+            data-alt="August 30, 2020 at Anaheim Doll Hut"
+       
+          ><img class="flyers" src="Images/IMG_6761.jpg"></a>
 
-            <!-- Modal Content (The Image) -->
-            <img class="modal-content" id="img01" />
-
-            <!-- Modal Caption (Image Text) -->
-            <div id="caption"></div>
-          </div>
-        </div>
-        <div class="col">
-          <img
-            src="https://i.ibb.co/LSKhtsH/IMG-6762.jpg"
-            alt="September 5, 2020 at Anaheim Doll Hut"
-            id="flyers"
-          />
-        </div>
+          <a            
+            href="Images/IMG_6762.jpg"
+            data-lightbox="upcoming"
+            data-title="September 5, 2020 at Anaheim Doll Hut"
+            data-alt="September 5, 2020 at Anaheim Doll Hut"
+          ><img class="flyers" src="Images/IMG_6762.jpg"></a>
+   
       </div>
       <h2>Archived Shows</h2>
       <div class="row" id="shows">
@@ -85,21 +77,6 @@
             >Nikki Klein</a
           >
         </footer> -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script src="shows.js"></script>
+      <script src="path/to/lightbox.js"></script>
   </body>
 </html>
